@@ -1,0 +1,38 @@
+{
+  "name": "PROPIEDAD DE VARIEDADES RADIO DJS https://variedadesradiodjs.wordpress.com/",
+  "website": "https://variedadesradiodjs.wordpress.com/",
+  "description": "https://variedadesradiodjs.wordpress.com/)",
+  "repository": "https://variedadesradiodjs.wordpress.com/",
+  "logo": "https://telegra.ph/file/c54d1ef149f12bb05f257.jpg",
+  "success_url": "https://variedadesradiodjs.wordpress.com/",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
